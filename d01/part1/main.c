@@ -10,7 +10,7 @@ int main()
 	FILE	*inFile;
 	size_t	retVal = 0;
 
-	inFile = fopen("./input.txt", "r");
+	inFile = fopen("../input.txt", "r");
 	if (!inFile)
 		return (fprintf(stderr, "Failed to open the input file.\n"));
 
